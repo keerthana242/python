@@ -1,0 +1,4 @@
+n = int(input())
+org =n
+lsd=n%10
+print(lsd)
