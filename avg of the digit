@@ -1,0 +1,13 @@
+n = int(input())
+sum =0
+avg=0
+count=0
+while n!=0:
+    d=n%10
+    count+=1
+    n//=10
+    sum+=d
+    avg=sum/count
+print(avg)    
+    
+    
