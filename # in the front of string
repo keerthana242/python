@@ -1,0 +1,9 @@
+s = input()
+hashcount=0
+result=" "
+for ch in s:
+    if(ch=="#"):
+        hashcount+=1
+    else:
+        result += ch
+print(hashcount*"#"+ result)        
