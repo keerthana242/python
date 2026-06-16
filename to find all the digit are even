@@ -1,0 +1,14 @@
+n = int(input())
+org =n
+b = True
+while n!=0:
+    d=n%10
+    if(d%2==0):
+        b=True
+    else:
+        b=False
+    n//=10
+if(b==True):
+    print("all digit are even")
+else:
+    print("not")
