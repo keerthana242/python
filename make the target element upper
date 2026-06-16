@@ -1,0 +1,7 @@
+s = input()
+tr = input()
+for ch in (s):
+    if(ch == tr):
+      print(ch.upper(),end=" ")
+    else:
+      print(ch,end=" ")
